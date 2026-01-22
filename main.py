@@ -4,7 +4,8 @@ from asset_module import Asset
 import logic
 import datetime
 
-logic.connect_db()
+logic.init_db()
+
 
 root = tk.Tk()
 root.title("NEXUS CORP - IT Asset Management")
